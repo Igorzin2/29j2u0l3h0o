@@ -1,0 +1,94 @@
+:root {
+    --roxo-principal: #9400dd;
+    --branco-secundario: #ffffff;
+    --verde-terceiro: #3a6332;
+    --cor-de-fundo: #000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--roxo-principal);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px ;
+    font-weight: 40;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.juntos{
+    padding: 10px;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.foto{
+    margin-left: 43%;
+    margin-top: -500px;
+}
+
+.container-dois{
+    width: 50%;
+    border-radius: 10%;
+    margin-left: 390px;
+}
+
+.container__descricao{
+    text-align: center;
+}
+
+.container-terceiro{
+    position: relative;
+    margin-top: 50px;
+}
+
+.descricao_titulo{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    margin-left: 50%;
+}
+
+.descricao_titulo2{
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    margin-left: 50%;
+}
+
+
+.container-tres{
+    width: 30%;
+    border-radius: 30%;
+    margin-left: 150px;
+    display: block;
+}
+
+.container-ultimo-section{
+    position: relative;
+}
+
+.container-ultimo{
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 15%;
+}
+
+.container-ultimo-especial-mais{
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 90%;
+}
+.descricao-titulo{
+    text-align: center;
+}
+footer{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 65px;
+}
